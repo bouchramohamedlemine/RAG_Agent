@@ -59,11 +59,11 @@ pip install -r requirements.txt
 
 ### 3. Configure Environment Variables
 
-Create a `.env` file in the root directory:
+Create a `.env` file, inside it write:
 
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
-INNGEST_API_BASE=http://127.0.0.1:8288/v1  # Optional, defaults to this value
+INNGEST_API_BASE=http://127.0.0.1:8288/v1  
 ```
 
 ## Running the Application
